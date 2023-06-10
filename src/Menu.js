@@ -13,13 +13,13 @@ function Menu() {
 
         <div className='nav__link'>
             <ul >
-                <li> <a href='#'> CHUJ </a> </li>
-                <li> <a href='#'> CHUJ </a> </li>
-                <li> <a href='#'> CHUJ </a> </li>
-                <li> <a href='#'> CHUJ </a> </li>
+                <li> <a href='#'> MENU </a> </li>
+                <li> <a href='#'> MENU </a> </li>
+                <li> <a href='#'> MENU </a> </li>
+                <li> <a href='#'> MENU </a> </li>
             </ul>
         </div>
-        <button>chuj</button>
+        <button>MENU</button>
     </div>
   );
 }
