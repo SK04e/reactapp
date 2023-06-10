@@ -4,29 +4,23 @@ import './App.css';
 
 function Menu() {
   return (
-    <header>
-        <nav className='nav'>
-            
-            <a href='#'> <img src={logo} className='logo'/> </a>
+    <div className='menu'>
 
-        <div className='middle-buttons'>
-            <ul className='nav-items'>
-                <li>
-                    <a href='#'>X1</a>
-                </li>
-                <li>
-                    <a href='#'>X2</a>
-                </li>
-                <li>
-                    <a href='#'>X3</a>
-                </li>
-                <li>
-                    <a href='#'>X4</a>
-                </li>
+        <a  href='#'>
+            <img src={logo} className='logo'/> 
+        </a>
+         
+
+        <div className='nav__link'>
+            <ul >
+                <li> <a href='#'> CHUJ </a> </li>
+                <li> <a href='#'> CHUJ </a> </li>
+                <li> <a href='#'> CHUJ </a> </li>
+                <li> <a href='#'> CHUJ </a> </li>
             </ul>
         </div>
-        </nav>
-    </header>
+        <button>chuj</button>
+    </div>
   );
 }
 
