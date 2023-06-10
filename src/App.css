@@ -3,7 +3,7 @@
 }
 
 * {
-  color: white;
+  color: var(--main-theme);
   box-sizing: border-box;
   padding: 0;
   margin: 0;
@@ -15,11 +15,10 @@
   justify-content: space-between;
   padding: 0 10%;
   font-weight: 600;
-  background-color: gray;
-  box-shadow: 0 0px 5px 5px gray;
+  box-shadow: 0 0px 5px 5px rgba(0, 0, 0, 0.1);;
 }
 
-ul li a {
+ul li a {   
   text-decoration: none;
 }
 
@@ -34,7 +33,7 @@ ul li a {
 
 .nav__link li {
   display: inline-block;
-  padding: 0 20px;
+  padding: 0 30px;
 }
 
 .nav__link li a {
@@ -48,18 +47,21 @@ ul li a {
 
 button {
   padding: 9px 25px;
-  background-color: var(--main-theme);
+  background-color: var(--main-secondary);
   border: none;
   border-radius: 50px;
   cursor: pointer;
   transition: all 0.3s ease 0s;
-
+  color: var(--main-theme);
+  border: solid 1px var(--main-theme)
 }
 
 button:hover {
   background-color: var(--main-theme);
+  color: var(--main-secondary);
 }
 
 :root {
-  --main-theme: rgba(0, 136, 169, 0.8)
+  --main-theme:  rgba(249, 110, 70, 1);
+  --main-secondary: white;
 }
