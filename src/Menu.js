@@ -9,17 +9,17 @@ function Menu() {
         <a  href='#'>
             <img src={logo} className='logo'/> 
         </a>
-         
 
         <div className='nav__link'>
             <ul >
-                <li> <a href='#'> MENU </a> </li>
-                <li> <a href='#'> MENU </a> </li>
-                <li> <a href='#'> MENU </a> </li>
-                <li> <a href='#'> MENU </a> </li>
+            <a href='#'><li>  MENU </li></a> 
+            <a href='#'><li>  MENU </li></a> 
+            <a href='#'><li>  MENU </li></a> 
+            <a href='#'><li>  MENU </li></a>
+            <a href='#'><li>  MENU </li></a> 
             </ul>
         </div>
-        <button>MENU</button>
+        <button>KONTAKT</button>
     </div>
   );
 }

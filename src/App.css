@@ -15,7 +15,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 10%;
+  padding: 0px 10%;
   font-weight: 600;
   box-shadow: 0 0px 5px 5px rgba(0, 0, 0, 0.1);;
 }
@@ -25,7 +25,7 @@ ul li a {
 }
 
 .logo {
-  height: 60px;
+  height: 45px;
   cursor: pointer ;
 }
 
@@ -35,7 +35,13 @@ ul li a {
 
 .nav__link li {
   display: inline-block;
-  padding: 0 30px;
+  padding: 10px 18px;
+  transition: all 0.3s ease 0s;
+}
+
+.nav__link li:hover {
+  background-color: rgba(86, 86, 86, 0.095);
+  transition: all 0.3s ease 0s;
 }
 
 .nav__link li a {
@@ -43,7 +49,8 @@ ul li a {
 }
 
 .nav__link li a:hover {
-  color: var(--main-theme);
+  color: var(--main-secondary);
+  background-color: rgba(86, 86, 86, 0.253);
 }
 
 
@@ -85,6 +92,5 @@ button:hover {
 }
 
 .main--image {
-  width: 100%;
-  height: 100%;
+  
 }
