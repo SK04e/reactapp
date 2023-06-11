@@ -9,7 +9,53 @@ function Main() {
               
             </div>
         </div>
-        <div className='section' > <h1> SEKCJA 2 </h1> </div>
+        <div className='section' >
+
+            <div className='square--small'>
+              <div className='fill'>
+                  1
+              </div>
+            </div>
+
+            <div className='square--small'>
+              <div className='fill'>
+                2
+              </div>
+            </div>
+
+            <div className='square--big'>
+              <div className='fill'>
+                3
+              </div>
+            </div>
+        </div>
+
+        
+
+        <div className='section' >
+
+        <div className='square--small--bottom'>
+              <div className='fill'>
+                2
+              </div>
+            </div>
+            <div className='square--small--bottom'>
+              <div className='fill'>
+                2
+              </div>
+            </div>
+
+              <div className='banner'>
+              <div className='fill'>
+                5 
+              </div>
+              </div>
+
+              <div className='faq'>
+                DICK DICK DICK DIC K
+              </div>
+
+        </div>
     </div>
   );
 }

@@ -12,14 +12,14 @@ function Menu() {
 
         <div className='nav__link'>
             <ul >
-            <a href='#'><li>  MENU </li></a> 
-            <a href='#'><li>  MENU </li></a> 
-            <a href='#'><li>  MENU </li></a> 
-            <a href='#'><li>  MENU </li></a>
-            <a href='#'><li>  MENU </li></a> 
+            <a href='#'><li> Strona główna </li></a> 
+            <a href='#'><li> Produkty  </li></a> 
+            
+            <a href='#'><li> O nas </li></a>
+            <a href='#'><li> Kontakt </li></a> 
             </ul>
         </div>
-        <button>KONTAKT</button>
+        <button> Menu </button>
     </div>
   );
 }
