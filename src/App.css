@@ -113,7 +113,6 @@ button:hover {
   background-image: url('./dejw.jpg');
 }
 
-
 .square--small {
   background-color: rgb(254, 251, 251);
   height: 50%;
@@ -134,8 +133,16 @@ button:hover {
   background-color: rgb(255, 255, 255);
   height: 50%;
   width: 50%;
-  padding: 1%;
+  padding: 0.5%;
   float: left;
+}
+
+.banner--right {
+  background-color: rgb(255, 255, 255);
+  height: 50%;
+  width: 50%;
+  padding: 0.5%;
+  float: right;
 }
 
 footer {  
@@ -145,9 +152,14 @@ footer {
    display: flex;
    align-items: center;
    justify-content: center;
+   position: absolute;
+   bottom: 0px;
 }
 
 .fill {
   background-color: rgb(155, 155, 155);
   height: 100%;
 }
+ .fill:hover{
+  box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.277);
+ }
