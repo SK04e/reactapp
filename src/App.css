@@ -2,6 +2,12 @@
   text-align: center;
 }
 
+:root {
+  --main-theme:  rgba(249, 110, 70, 1);
+  --main-secondary: white;
+}
+
+
 * {
   color: var(--main-theme);
   box-sizing: border-box;
@@ -15,9 +21,10 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0px 10%;
+  padding: 0px 15%;
+  padding-top: 5px;
   font-weight: 600;
-  box-shadow: 0 0px 5px 5px rgba(0, 0, 0, 0.1);;
+  {/*box-shadow: 0 0px 5px 5px rgba(0, 0, 0, 0.1);*/}
 }
 
 ul li a {   
@@ -25,12 +32,14 @@ ul li a {
 }
 
 .logo {
-  height: 45px;
+  height: 40px;
   cursor: pointer ;
+  animation: fadeIn 1s;
 }
 
 .nav__link {
   list-style: none;
+  animation: fadeIn 1s;
 }
 
 .nav__link li {
@@ -62,7 +71,8 @@ button {
   cursor: pointer;
   transition: all 0.3s ease 0s;
   color: var(--main-theme);
-  border: solid 1px var(--main-theme)
+  border: solid 1px var(--main-theme);
+  animation: fadeIn 1s;
 }
 
 button:hover {
@@ -70,9 +80,9 @@ button:hover {
   color: var(--main-secondary);
 }
 
-:root {
-  --main-theme:  rgba(249, 110, 70, 1);
-  --main-secondary: white;
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
 }
 
 {/* -------------------- */}
@@ -92,5 +102,13 @@ button:hover {
 }
 
 .main--image {
-  
+  height: 100vh;
+  width: 100vw;
+}
+
+#bestseller {
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('./dejw.jpg');
 }

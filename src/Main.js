@@ -5,9 +5,11 @@ function Main() {
   return (
     <div className='container'> 
         <div className='section' >
-            <img src={dejw} className='main--iamge' />
+            <div id='bestseller'>
+              
+            </div>
         </div>
-        <div className='section' > DICK 321 </div>
+        <div className='section' > <h1> SEKCJA 2 </h1> </div>
     </div>
   );
 }
