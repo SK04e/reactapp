@@ -11,49 +11,42 @@ function Main() {
         </div>
         <div className='section' >
 
-            <div className='square--small'>
+
+        <div className='square--small'>
               <div className='fill'>
-                  1
+                 1  
               </div>
             </div>
 
             <div className='square--small'>
               <div className='fill'>
-                2
+                 1  
               </div>
             </div>
 
             <div className='square--big'>
               <div className='fill'>
-                3
-              </div>
-            </div>
-        </div>
-
-        
-
-        <div className='section' >
-
-        <div className='square--small--bottom'>
-              <div className='fill'>
-                2
-              </div>
-            </div>
-            <div className='square--small--bottom'>
-              <div className='fill'>
-                2
+                 1  
               </div>
             </div>
 
-              <div className='banner'>
+            <div className='square--small'>
               <div className='fill'>
-                5 
+                 1  
               </div>
-              </div>
+            </div>
 
-              <div className='faq'>
-                DICK DICK DICK DIC K
+            <div className='square--small'>
+              <div className='fill'>
+                 1  
               </div>
+            </div>
+
+            
+
+            
+            
+            
 
         </div>
     </div>
