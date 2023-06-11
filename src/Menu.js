@@ -16,7 +16,7 @@ function Menu() {
             <a href='#'><li>  MENU </li></a> 
             <a href='#'><li>  MENU </li></a> 
             <a href='#'><li>  MENU </li></a>
-            <a href='#'><li> Kalendarz Świąt </li></a> 
+            <a href='#'><li>  MENU </li></a> 
             </ul>
         </div>
         <button>KONTAKT</button>
