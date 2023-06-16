@@ -1,5 +1,6 @@
 import dejw from './dejw.jpg';
-
+import Card from './Card'
+import Data from './data'
 
 function Main() {
   return (
@@ -10,17 +11,15 @@ function Main() {
             </div>
         </div>
         <div className='section' >
-            <div className='square--small'>
-              <div className='fill'>
-                 1  
-              </div>
-            </div>
+            <Card 
+              name="PRODUKT ROKU!"
+              img="./tesla.png"
+            />
 
-            <div className='square--small'>
-              <div className='fill'>
-                 1  
-              </div>
-            </div>
+            <Card 
+              name="bastek podepnij backend"
+              img="./tesla.png"
+            />
 
             <div className='square--big'>
               <div className='fill'>
@@ -37,23 +36,24 @@ function Main() {
 
         <div className='section' >
 
-            <div className='square--small'>
-              <div className='fill'>
-                 1  
-              </div>
-            </div>
+            <Card 
+              name="nigger"
+            />
 
-            <div className='square--small'>
-              <div className='fill'>
-                 1  
-              </div>
-            </div>
+            <Card 
+              name="cofnig"
+              img="./tesla.png"
+            />
 
             <div className='banner--right'>
               <div className='fill'>
                  55  
               </div>
             </div>
+
+          <div className='todo'>
+            Why u should choose us / FAQ / cos innego 
+          </div>
 
       <footer>
         ZUL
