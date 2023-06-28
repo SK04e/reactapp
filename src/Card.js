@@ -5,7 +5,9 @@ function Card(props) {
     <div>
         <div className='square--small'>
             <div className='fill'>
-                {props.name}
+                <div className='product--name'>
+                    {props.name}
+                </div>
             </div>
         </div>
     </div>

@@ -163,6 +163,7 @@ footer {
 .fill {
   background-color: rgb(155, 155, 155);
   height: 100%;
+  position: relative;
 }
  .fill:hover{
   box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.277);
@@ -175,3 +176,14 @@ footer {
         height: 40vh;
         text-align: center;
   }
+
+{/* -------------------------- */}
+{/* -------KOMPONENTY--------- */}
+{/* -------------------------- */}
+
+.product--name {
+  position: absolute;
+    bottom: 0;
+    right: 20%;
+  
+}
