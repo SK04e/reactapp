@@ -14,11 +14,13 @@ function Main() {
             <Card 
               name="PRODUKT ROKU!"
               img="./tesla.png"
+              link="wp.pl"
             />
 
             <Card 
               name="bastek podepnij backend"
               img="./tesla.png"
+              link="https://wp.pl"
             />
 
             <div className='square--big'>
